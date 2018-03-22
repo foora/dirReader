@@ -1,0 +1,21 @@
+{
+  "name": "dir_reader",
+  "version": "1.0.0",
+  "author": "foora",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foora/dirReader.git"
+  },
+  "homepage": "https://github.com/foora/dirReader#readme",
+  "bugs": {
+    "url": "https://github.com/foora/dirReader/issues"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "typescript": "^2.7.2"
+  }
+}

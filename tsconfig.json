@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "./",
+        "target": "ES6",
+        "lib": ["es2015", "es2016", "es2017", "esnext"],
+        "module": "commonjs",
+        "outDir": "./dist",
+        "types": ["node"], // 要包含的类型声明文件名列表
+        "typeRoots": ["node_modules/@types"], // 要包含的类型声明文件路径列表
+        "alwaysStrict": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "strict": true,
+        "strictNullChecks": true
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules"]
+  }
