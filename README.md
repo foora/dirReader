@@ -4,7 +4,7 @@
 ## 介绍
 用于遍历获取文件夹中的文件，并返回文件相对于根目录的路径
 
-## 要求
+## 要求
 - node > 8 
 
 ## 安装
@@ -41,6 +41,6 @@ path.resolve(process.cwd(), root);
 
 - extName(string[]): 遍历时要获取的文件的extname，默认为['.js']，获取js文件。
 
-##### 遍历后返回的数据
+##### 遍历后返回的数据:
 data(string[]): 文件相对于根目录的地址      
 例子：['src/index.ts', 'dist/index.js']
