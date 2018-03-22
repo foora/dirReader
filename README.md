@@ -37,7 +37,7 @@ dirReader(options).then((data) => {
 // root为绝对路径，则根目录就是该路径，若root为相对路径，则是相对于你执行代码的目录环境
 path.resolve(process.cwd(), root);
 ```
-- dirName(string[]): 需要遍历的目录名,若无则默认从根目录开始遍历（遍历出的文件包含根目录下的文件）
+- dirName(string[]): 需要遍历的目录名,若无则默认从根目录开始遍历（遍历出的文件包含根目录下的文件）
 
 - extName(string[]): 遍历时要获取的文件的extname，默认为['.js']，获取js文件。
 
