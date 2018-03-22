@@ -17,7 +17,7 @@ yarn add foora/dirReader
 ## 使用
 注意： 默认不会遍历node_modules或者.xxx类型的目录
 ```
-const dirReader = require('dirReader');
+const dirReader = require('dir_reader');
 
 options = {
     root: './'
