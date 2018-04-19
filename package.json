@@ -12,10 +12,24 @@
     "url": "https://github.com/foora/dirReader/issues"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest --forceExit",
+    "testcov": "jest --forceExit --coverage"
   },
   "devDependencies": {
     "@types/node": "^9.4.7",
+    "jest": "^22.4.3",
     "typescript": "^2.7.2"
+  },
+  "jest": {
+    "testMatch": [
+      "**/test/**.test.js"
+    ],
+    "bail": true,
+    "testEnvironment": "node",
+    "coverageReporters": [
+      "text-summary",
+      "lcov"
+    ]
   }
 }
